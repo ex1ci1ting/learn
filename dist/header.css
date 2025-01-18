@@ -3,8 +3,11 @@
   height: 50px;
   background-color: lightblue;
   border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: black;
+  border-bottom-width: 2px;
+  border-bottom-color: white;
+}
+.header a {
+  color: white;
 }
 .header .nav {
   width: 100%;
@@ -18,9 +21,22 @@
   row-gap: 0;
 }
 .header .nav__title {
-  height: 100%;
   width: 255px;
-  border-right: 1px solid black;
+  border-right: 2px solid white;
+  height: 100%;
+  align-content: center;
+  text-align: center;
+  font-size: 25px;
+}
+.header .nav__title span {
+  font-weight: 700;
+}
+.header .nav__links {
+  flex-grow: 1;
+  margin-left: 110px;
+}
+.header .nav__links a {
+  font-size: 22px;
 }
 
 /*# sourceMappingURL=header.css.map */
